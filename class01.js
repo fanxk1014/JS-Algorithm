@@ -49,7 +49,6 @@
 //         tempObj[str.charAt(i)] += 1;
 //       }
 //     }
-
 //     let maxChar = '';
 //     let maxValue = 1;
 //     for(x in tempObj){
@@ -60,7 +59,6 @@
 //     }
 //     return maxChar;
 //   }
-
 //   let dupStr = '112235487651231111';
 //   console.log(findMaxDuplicateChar(dupStr));
 // }
@@ -83,7 +81,31 @@
 //     }
 //     return arr;
 //   }
-
 //   let randomArr = [2,4,9,7,3,1,6,5,8,5];
 //   console.log(bubbleSotr(randomArr));
+// }
+
+/**
+ * 快速排序-从小到大
+ */
+// {
+//   function quickSort(arr){
+//     if(arr.length <= 1){//注意这里有坑，必须有<1的判断，不然会陷入死循环
+//       return arr;
+//     }
+//     let leftArr = [];
+//     let rightArr = [];
+//     let q = arr[0];
+//     for(let i=1;i<arr.length;i++){
+//       if(arr[i]<q){
+//         leftArr.push(arr[i]);
+//       }else{
+//         rightArr.push(arr[i]);
+//       }
+//     }
+//     return [].concat(quickSort(leftArr),[q],quickSort(rightArr));
+//   }
+
+//   let quickArr = [5,6,8,9,1,3,0,2,4,2,5];
+//   console.log(quickSort(quickArr));
 // }
