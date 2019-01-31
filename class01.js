@@ -105,7 +105,19 @@
 //     }
 //     return [].concat(quickSort(leftArr),[q],quickSort(rightArr));
 //   }
-
 //   let quickArr = [5,6,8,9,1,3,0,2,4,2,5];
 //   console.log(quickSort(quickArr));
 // }
+
+/**
+ * 不借助临时变量，交换两数位置
+ */
+{
+  function swap(a , b) {  
+    b = b - a;
+    a = a + b;
+    b = a - b;
+    return [a,b];
+  }
+  console.log(swap(1,3));
+}
