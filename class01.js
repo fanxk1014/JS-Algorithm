@@ -1,4 +1,5 @@
 /**
+ * 1
  * 判断一组字符串是否为回文
  * 是 返回true，不是 返回false
  */
@@ -11,10 +12,10 @@
 //     console.log(testReverse(str));
 // }
 
-// /**
-//    * 去重
-//    * @param {*} arr 
-//    */
+/**
+ * 2
+ * 去重
+ */
 // {
 //   function unique(arr) {  
 //         let hashTable = {};
@@ -32,6 +33,7 @@
 // }
     
 /**
+ * 3
  * 找出出现次数最多的字符
  */
 // {
@@ -61,4 +63,27 @@
 
 //   let dupStr = '112235487651231111';
 //   console.log(findMaxDuplicateChar(dupStr));
+// }
+
+/**
+ * 4
+ * 数组冒泡排序-从小到大
+ */
+// {
+//   function bubbleSotr(arr){
+//     let tempVal = '';
+//     for(let i=0;i<arr.length-1;i++){
+//       for(let j=i+1;j<arr.length;j++){
+//         if(arr[i]>arr[j]){
+//           tempVal = arr[i];
+//           arr[i] = arr[j];
+//           arr[j] = tempVal;
+//         }
+//       }
+//     }
+//     return arr;
+//   }
+
+//   let randomArr = [2,4,9,7,3,1,6,5,8,5];
+//   console.log(bubbleSotr(randomArr));
 // }
