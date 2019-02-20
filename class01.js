@@ -122,3 +122,22 @@
 //   console.log(swap(1,3));
 // }
 
+/**
+ * 生成斐波那契数组
+ */
+// {
+//     function getFibonacci(n){
+//         let fiboArr = [];
+//         let i = 0;
+//         while(i<n){
+//             if(i<=1){
+//                 fiboArr.push(i);
+//             }else{
+//                 fiboArr.push(fiboArr[i-1]+fiboArr[i-2]);
+//             }
+//             i++
+//         }
+//         return fiboArr;
+//     }
+//     console.log(getFibonacci(22));
+// }
