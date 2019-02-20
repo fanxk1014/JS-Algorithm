@@ -141,3 +141,22 @@
 //     }
 //     console.log(getFibonacci(22));
 // }
+
+/**
+ * 找出数组中的最大差值
+ */
+// {
+//     function getMaxProfit(arr){
+//         let minNum = arr[0];
+//         let maxProfit = 0;
+//         for(let i=0;i<arr.length;i++){debugger
+//             let currentProfit = arr[i];
+//             minNum = Math.min(currentProfit,minNum);
+//             let potentialProfit = arr[i] - minNum;
+//             maxProfit = Math.max(potentialProfit,maxProfit);
+//         }
+//         return maxProfit;
+//     }
+//     let arrTest = [5,-8,2,9,13,5];
+//     console.log(getMaxProfit(arrTest));
+// }
