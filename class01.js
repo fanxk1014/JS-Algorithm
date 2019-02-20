@@ -112,12 +112,13 @@
 /**
  * 不借助临时变量，交换两数位置
  */
-{
-  function swap(a , b) {  
-    b = b - a;
-    a = a + b;
-    b = a - b;
-    return [a,b];
-  }
-  console.log(swap(1,3));
-}
+// {
+//   function swap(a , b) {  
+//     b = b - a;
+//     a = a + b;
+//     b = a - b;
+//     return [a,b];
+//   }
+//   console.log(swap(1,3));
+// }
+
