@@ -86,6 +86,7 @@
 // }
 
 /**
+ * 5
  * 快速排序-从小到大
  */
 // {
@@ -110,6 +111,7 @@
 // }
 
 /**
+ * 6
  * 不借助临时变量，交换两数位置
  */
 // {
@@ -123,6 +125,7 @@
 // }
 
 /**
+ * 7
  * 生成斐波那契数组
  */
 // {
@@ -143,6 +146,7 @@
 // }
 
 /**
+ * 8
  * 找出数组中的最大差值
  */
 // {
@@ -160,3 +164,21 @@
 //     let arrTest = [5,-8,2,9,13,5];
 //     console.log(getMaxProfit(arrTest));
 // }
+
+/**
+ * 9
+ * 随机生成指定长度字符串
+ */
+// {
+//     function randomString(n){
+//         let str = 'asdfghjklzxcvbnm0123456789';
+//         let strL = str.length;
+//         let rdStr = '';
+//         for(let i=0;i<n;i++){
+//             rdStr += str.charAt(Math.floor(Math.random()*strL));
+//         }
+//         return rdStr;
+//     }
+//     console.log(randomString(5));
+// }
+
