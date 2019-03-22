@@ -1,3 +1,5 @@
+// Javascript 算法练习
+
 /**
  * 1
  * 判断一组字符串是否为回文
@@ -19,7 +21,7 @@
 // {
 //   function unique(arr) {  
 //         let hashTable = {};
-//         let data = [];debugger
+//         let data = [];
 //         for(let i=0,l=arr.length;i<l;i++) {
 //         if(!hashTable[arr[i]]) {
 //             hashTable[arr[i]] = true;
