@@ -184,3 +184,22 @@
 //     console.log(randomString(5));
 // }
 
+/**
+ * 10
+ * 写一个字符串，找出其中最长的连续子字符串
+ * 例：‘aabbcdnnnnmmk’,输出：‘nnnn’
+ */
+function getLongChar(char){
+    if(!arguments.length){
+        console.log('没有参数');
+        return;
+    }
+    if(!char.length){
+        console.log('空字符串');
+        return;
+    }
+
+console.log(char[0]);
+
+}
+console.log(getLongChar('abcde'));
