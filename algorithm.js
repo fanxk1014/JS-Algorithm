@@ -186,6 +186,25 @@
 
 /**
  * 10
+ * 数组中任意两数之和，等于指定值，返回这两数脚标数组
+ */
+// var twoSum = function(nums, target) {
+//     var numsL = nums.length;
+//     for(var i=0;i<numsL-1;i++){
+//         for(var j=i+1;j<numsL;j++){
+//             if(nums[i]===target-nums[j]){
+//                console.log(i,j);
+//                }
+//         }
+//     }
+// };
+// var arr = [2,7,11,13];
+// var targetVal = 9;
+// twoSum(arr,targetVal);
+
+
+/**
+ * 11
  * 写一个字符串，找出其中最长的连续子字符串
  * 例：‘aabbcdnnnnmmk’,输出：‘nnnn’
  */
