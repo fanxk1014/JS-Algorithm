@@ -56,14 +56,14 @@
  * 2.3
  * 去重
  */
-{
-    function unique(arr){
-        let set = new Set(arr);
-        console.log(set);
-    }
-    let arr = [1,2,3,3,4,5,5];
-    unique(arr);
-}
+// {
+//     function unique(arr){
+//         let set = new Set(arr);
+//         console.log(set);
+//     }
+//     let arr = [1,2,3,3,4,5,5];
+//     unique(arr);
+// }
 
 /**
  * 3
