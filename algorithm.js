@@ -15,7 +15,7 @@
 // }
 
 /**
- * 2
+ * 2.1
  * 去重
  */
 // {
@@ -33,7 +33,38 @@
 //     let arr=[0,2,4,6,8,4,5,0];
 //     console.log(unique(arr));
 // }
+
+/**
+ * 2.2
+ * 去重
+ *  */
+// {
+//     function unique(arr){
+//         let tempArr = [];
+//         for(let i=0;i<arr.length;i++){
+//             if(tempArr.indexOf(arr[i]) == -1){
+//                 tempArr.push(arr[i]);
+//             }
+//         }
+//         return tempArr;
+//     }
+//     let arr = [1,2,3,3,4,5,5];
+//     console.log(unique(arr));
+// }
     
+/**
+ * 2.3
+ * 去重
+ */
+// {
+//     function unique(arr){
+//         let set = new Set(arr);
+//         console.log(set);
+//     }
+//     let arr = [1,2,3,3,4,5,5];
+//     unique(arr);
+// }
+
 /**
  * 3
  * 找出出现次数最多的字符
@@ -186,20 +217,39 @@
 
 /**
  * 10
+ * 数组中任意两数之和，等于指定值，返回这两数脚标数组
+ */
+// var twoSum = function(nums, target) {
+//     var numsL = nums.length;
+//     for(var i=0;i<numsL-1;i++){
+//         for(var j=i+1;j<numsL;j++){
+//             if(nums[i]===target-nums[j]){
+//                console.log(i,j);
+//                }
+//         }
+//     }
+// };
+// var arr = [2,7,11,13];
+// var targetVal = 9;
+// twoSum(arr,targetVal);
+
+
+/**
+ * 11
  * 写一个字符串，找出其中最长的连续子字符串
  * 例：‘aabbcdnnnnmmk’,输出：‘nnnn’
  */
-function getLongChar(char){
-    if(!arguments.length){
-        console.log('没有参数');
-        return;
-    }
-    if(!char.length){
-        console.log('空字符串');
-        return;
-    }
+// function getLongChar(char){
+//     if(!arguments.length){
+//         console.log('没有参数');
+//         return;
+//     }
+//     if(!char.length){
+//         console.log('空字符串');
+//         return;
+//     }
 
-console.log(char[0]);
+// console.log(char[0]);
 
-}
-console.log(getLongChar('abcde'));
+// }
+// console.log(getLongChar('abcde'));

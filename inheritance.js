@@ -79,3 +79,16 @@ console.log(sub2.name);
 
 
 // 6.寄生组合式继承
+// function content(obj){
+//     function F(){}
+//     false.prototype = obj;
+//     return new F();
+// }
+// var subCon = content(Person.prototype);
+// function Sub(){
+//     Person.call(this);
+// }
+// Sub.prototype = subCon;
+// subCon.constructor = Sub;
+// var sub1 = new Sub();
+// console.log(sub1.name);
