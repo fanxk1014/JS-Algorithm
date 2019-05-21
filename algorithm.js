@@ -186,7 +186,7 @@
 //     function getMaxProfit(arr){
 //         let minNum = arr[0];
 //         let maxProfit = 0;
-//         for(let i=0;i<arr.length;i++){debugger
+//         for(let i=0;i<arr.length;i++){
 //             let currentProfit = arr[i];
 //             minNum = Math.min(currentProfit,minNum);
 //             let potentialProfit = arr[i] - minNum;
