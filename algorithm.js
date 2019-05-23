@@ -233,6 +233,20 @@
 // var targetVal = 9;
 // twoSum(arr,targetVal);
 
+//买n个苹果，一袋6个或者8个，求袋数最少时刚好买够n个？如果无法刚好买到n个，返回-1。
+// function fruitPack(n){
+//     let pack8 = Math.floor(n/8);
+//     let pack6,pack;
+//     for(pack8;pack8>=0;pack8--){debugger
+//         if((n-8*pack8)%6==0){
+//             pack6 = (n-8*pack8)/6;
+//             pack = pack6 + pack8;
+//             return pack;
+//         }
+//     }
+//     return -1;
+// }
+// console.log(fruitPack(11));
 
 /**
  * 11
