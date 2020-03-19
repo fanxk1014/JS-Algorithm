@@ -9,3 +9,5 @@ Promise.prototype.finally = function(callback) {
         });
     });
 }
+
+//https://blog.csdn.net/zl13015214442/article/details/96744447
